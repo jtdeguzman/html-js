@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Coron Travel Tours</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/formstyle.css">
+</head>
+
+<body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    
+  <script src="js/scripts.js"></script>
+
+  <h1>CORON TRAVEL TOURS</h1>
+
+  <div class="imgslider">
+    <div>
+      <img src="images\coron_palawan_01.jpg">
+      <button class="button1">Read More</button>
+    </div>
+    <div>
+      <img src="images\coron_palawan_02.jpg">
+      <button class="button2">Read More</button>
+    </div>
+    <div>
+      <img src="images\coron_palawan_03.jpg">
+      <button class="button3">Read More</button>
+    </div>
+  </div>
+    
+  <div class="data">
+    <h4>The Calamianes Islands were originally inhabited by the Tagbanuas, Calmiananen and Cuyonon tribes.
+
+    Oral history tells that the Datu Macanas ruled the entire Busuanga Island where present day Coron town lies. Early on Spanish exploration of the islands, Fray de la Concepcion took note of the friendliness of the people of Busuanga Island and the ferocity of the Tagbanua tribe living in Coron Island.
+
+    Late in the 1890s, an American naturalist, Dean Worcester, journeyed through the Calamianes collecting specimens and stayed briefly in Culion. At the turn of the century, he was appointed part of the First Philippine Commission, becoming the Secretary of the Interior. He recommended Culion as the Philippine Leper Colony. This act forced the transfer of the Sandoval clan in 1900 to the various barrios of what is now Coron and Busuanga. The Coron town was settled by the family of Claudio Sandoval, and the other Sandovals settled in what is now Bintuan, Salvacion, Concepcion and Old Busuanga.
+
+    In 1950, the town of Busuanga was created from the barrios of Concepcion, Salvacion, Busuanga, New Busuanga, Buluang, Quezon, Calawit, and Cheey which used to belong to Coron.
+
+    In 1954, the islands of Linapacan, Cabunlaoan, Niangalao, Decabayotot, Calibanbangan, Pical, and Barangonan were separated from Coron to form the town of Linapacan.</h4>
+      
+    <h5>Reference: https://en.wikipedia.org/wiki/Coron,_Palawan</h5>
+  </div>
+
+  <div class="contactUsButton">
+    <button id="popup" onclick="div_show()">Contact Us</button>
+  </div>
+    
+  <div id="abc">
+      <!-- Popup Div Starts Here -->
+      <div id="popupContact">
+          <!-- Contact Us Form -->
+          <form action="#" id="form" method="post" name="form">
+              <img id="close" src="images/3.png" onclick ="div_hide()">
+              <h2>Contact Us</h2>
+              <hr>
+              <input id="name" name="name" placeholder="Name" type="text">
+              <input id="email" name="email" placeholder="Email" type="text">
+              <textarea id="msg" name="message" placeholder="Message"></textarea>
+              <a href="javascript:%20check_empty()" id="submit">Send</a>
+          </form>
+      </div>
+      <!-- Popup Div Ends Here -->
+      <!-- Display Popup Button -->
+      
+    </div>
+    
+</body>
+
+</html>
